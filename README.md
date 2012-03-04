@@ -26,7 +26,7 @@ Installation
 It's quite simple really. The default setup will create a 600px wide editor with the default skin and language. It can be easily customized as I'll show shortly.
 
 First include the CSS of the skin you're using. I'll assume the default:
-    <link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />
+		<link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />
 	
 Next include jQuery and editor.js:
 <script type="text/javascript" src="editor/jquery/jquery.js"></script>
