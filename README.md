@@ -26,21 +26,21 @@ Installation
 It's quite simple really. The default setup will create a 600px wide editor with the default skin and language. It can be easily customized as I'll show shortly.
 
 First include the CSS of the skin you're using. I'll assume the default:
-		<link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />
+    <link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />
 	
 Next include jQuery and editor.js:
-<script type="text/javascript" src="editor/jquery/jquery.js"></script>
-<script type="text/javascript" src="editor/editor.js"></script>
+    <script type="text/javascript" src="editor/jquery/jquery.js"></script>
+    <script type="text/javascript" src="editor/editor.js"></script>
 	
 Create a textarea with a name and a class of "editor" (it can be overriden):
-<textarea name="permbajtja" class="editori"></textarea>
+    <textarea name="permbajtja" class="editori"></textarea>
 	
 Finally initialize the editor:
-<script type="text/javascript">	
-$(document).ready(function(){
-	Editor.loadEditor();
-});
-</script>
+    <script type="text/javascript">	
+        $(document).ready(function(){
+        Editor.loadEditor();
+    });
+    </script>
 
 If you feel you want to override the initialization parameters, here they are:
 Editor.loadEditor({
