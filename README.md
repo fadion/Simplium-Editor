@@ -26,21 +26,29 @@ Installation
 It's quite simple really. The default setup will create a 600px wide editor with the default skin and language. It can be easily customized as I'll show shortly.
 
 First include the CSS of the skin you're using. I'll assume the default:
-    <link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />
+<pre lang="html"><code>
+<link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />
+</code></pre>
 	
 Next include jQuery and editor.js:
-    <script type="text/javascript" src="editor/jquery/jquery.js"></script>
-    <script type="text/javascript" src="editor/editor.js"></script>
+<pre lang="html"><code>
+<script type="text/javascript" src="editor/jquery/jquery.js"></script>
+<script type="text/javascript" src="editor/editor.js"></script>
+</code></pre>
 	
 Create a textarea with a name and a class of "editor" (it can be overriden):
-    <textarea name="permbajtja" class="editori"></textarea>
+<pre lang="html"><code>
+<textarea name="permbajtja" class="editori"></textarea>
+</code></pre>
 	
 Finally initialize the editor:
-    <script type="text/javascript">	
-        $(document).ready(function(){
-        Editor.loadEditor();
-    });
-    </script>
+<pre lang="javascript"><code>
+<script type="text/javascript">	
+	$(document).ready(function(){
+		Editor.loadEditor();
+	});
+</script>
+</code></pre>
 
 If you feel you want to override the initialization parameters, here they are:
 <pre lang="javascript"><code>
@@ -51,5 +59,4 @@ Editor.loadEditor({
 	lang: 'en', // language. An actual file should exist with the appropriate name (en => en.js, de => de.js)
 	path: 'editori', // the folder where the editor files are. No slashes (/).
 });
-</code>
-</pre>
+</code></pre>
