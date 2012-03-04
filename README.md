@@ -31,10 +31,10 @@ First include the CSS of the skin you're using. I'll assume the default:
 </code></pre>
 	
 Next include jQuery and editor.js:
-<pre lang="html"><code>
+```html
 <script type="text/javascript" src="editor/jquery/jquery.js"></script>
 <script type="text/javascript" src="editor/editor.js"></script>
-</code></pre>
+```
 	
 Create a textarea with a name and a class of "editor" (it can be overriden):
 <pre lang="html"><code>
