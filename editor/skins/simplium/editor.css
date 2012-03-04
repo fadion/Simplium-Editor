@@ -1,0 +1,174 @@
+a img {
+	border: 0;	
+}
+
+/*
+	Mbajtesi i Editorit
+*/
+#editorWrapper {
+	width: 700px;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+}
+
+/*
+	Textarea - Fusha e editimit
+*/
+#editorWrapper textarea {
+	width: 90%;
+	height: 250px;
+	border: 0;
+	background: white;
+	padding: 20px;
+	font: 15px Georgia, "Times New Roman", Times, serif;
+	color: #696969;
+	outline: 0;
+	resize: vertical;
+}
+
+/*
+	Paneli i Ikonave
+*/
+#editorToolbar {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#editorToolbar a img {
+	cursor: pointer;	
+}
+
+/*
+	Ikonat dhe Qeshjet
+*/
+#editorIcons, #editorSmileys {
+	margin: 0;
+	padding: 8px 15px 0 15px;
+	background: #d4dde3;
+	float: left;
+	list-style-type: none;
+	height: 25px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+}
+
+#editorIcons {
+	margin-right: 10px;
+}
+
+#editorSmileys {
+	background: #dae2e8;
+}
+
+#editorIcons li, #editorSmileys li {
+	display: inline;
+	margin: 0 6px;
+}
+
+/*
+	Mbajtesi i hijeve
+*/
+#editorShadow {
+	overflow: hidden;
+}
+
+/*
+	Hija e mesit.
+	Gjeresia percaktohet me Javascript (ne editor.js)
+*/
+#editorShadow #shadow-middle {
+	height:29px;
+	background: url(images/shadow.png) repeat-x;
+	float: left;
+}
+
+/*
+	Hija e djathte dhe e majte
+*/
+#editorShadow #shadow-left, #editorShadow #shadow-right {
+	height: 29px;
+	width: 158px;
+}
+
+#editorShadow #shadow-left {
+	background: url(images/shadow-left.png) no-repeat;
+	float: left;
+}
+
+#editorShadow #shadow-right {
+	background: url(images/shadow-right.png) no-repeat;
+	float: left;
+}
+
+/*
+	Menuja e madhesise se germes
+*/
+#editorFont {
+	margin: 0;
+	padding: 10px;
+	width: 100px;
+	font: 13px Arial, Helvetica, sans-serif;
+	background: #d4dde3;
+	color: #54778e;
+	list-style-type: none;
+	position: absolute;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;	
+}
+
+#editorFont li {
+	margin-bottom: 5px;	
+}
+
+#editorFont li a {
+	cursor: pointer;	
+}
+
+/*
+	Menuja e ngjyrave
+*/
+#editorColors {
+	width: 135px;
+	background: #d4dde3;
+	padding: 10px;
+	overflow: hidden;
+	position: absolute;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;		
+}
+
+#editorColors a {
+	display: block;
+	float: left;
+	margin: 3px;
+	cursor: pointer;
+}
+
+/*
+	Menuja e Qeshjeve
+*/
+#smileys-popup {
+	width: 95px;
+	padding: 10px;
+	background: #dae2e8;
+	overflow: hidden;
+	position: absolute;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;	
+}
+
+#smileys-popup a {
+	display: block;
+	float: left;
+	margin: 3px;	
+	cursor: pointer;
+}
