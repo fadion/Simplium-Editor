@@ -35,20 +35,26 @@ Next include jQuery and editor.js:
 ```
 	
 Create a textarea with a name and a class of "editor" (it can be overriden):
-	<textarea name="permbajtja" class="editori"></textarea>
+```
+<textarea name="permbajtja" class="editori"></textarea>
+```
 	
 Finally initialize the editor:
-	<script type="text/javascript">	
-	$(document).ready(function(){	
-		Editor.loadEditor();
-	});
-	</script>
-	
+```
+<script type="text/javascript">	
+$(document).ready(function(){
+	Editor.loadEditor();
+});
+</script>
+```
+
 If you feel you want to override the initialization parameters, here they are:
-	Editor.loadEditor({
-		selector: '.my_editor', // the selector (id or class) of the textarea that will be converted
-		skin: 'skin_name', // the skin that will be used. The actual files should exist under the "skins" folder
-		width: 700, // editor width
-		lang: 'en', // language. An actual file should exist with the appropriate name (en => en.js, de => de.js)
-		path: 'editori', // the folder where the editor files are. No slashes (/).
-	});
+```
+Editor.loadEditor({
+	selector: '.my_editor', // the selector (id or class) of the textarea that will be converted
+	skin: 'skin_name', // the skin that will be used. The actual files should exist under the "skins" folder
+	width: 700, // editor width
+	lang: 'en', // language. An actual file should exist with the appropriate name (en => en.js, de => de.js)
+	path: 'editori', // the folder where the editor files are. No slashes (/).
+});
+```
