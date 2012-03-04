@@ -43,6 +43,7 @@ Finally initialize the editor:
     </script>
 
 If you feel you want to override the initialization parameters, here they are:
+<pre lang="javascript"><code>
 Editor.loadEditor({
 	selector: '.my_editor', // the selector (id or class) of the textarea that will be converted
 	skin: 'skin_name', // the skin that will be used. The actual files should exist under the "skins" folder
@@ -50,3 +51,5 @@ Editor.loadEditor({
 	lang: 'en', // language. An actual file should exist with the appropriate name (en => en.js, de => de.js)
 	path: 'editori', // the folder where the editor files are. No slashes (/).
 });
+</code>
+</pre>
