@@ -4,9 +4,7 @@ A simple Javascript BB Code Editor (wysiwym) that focues on being lightweight, c
 
 ![Simplium Editor](http://feniksi.com/wp-content/uploads/2011/09/editori1.jpg)
 
-It uses jQuery and jquery.RangyInputs to do it's work. Icons are from the popular FamFamFam Silk collection, while the lovely smileys are custom made by Gezim Osmani.
-
-For the moment, comments and interface language are in Albanian (my native language). I will work on translating them to English as soon as possible.
+It uses jQuery and [RangyInputs](http://code.google.com/p/rangyinputs/wiki/Documentation "Rangy Inputs jQuery Plugin") to do it's work. Icons are from the popular [FamFamFam Silk](http://www.famfamfam.com/lab/icons/silk/ "FamFamFam Silk Icons") collection, while the lovely smileys are custom made by [Gezim Osmani](http://artisticca.com/ "Artisticca Creative Agency").
 
 Features
 --------
@@ -28,11 +26,11 @@ Installation
 It's quite simple really. The default setup will create a 600px wide editor with the default skin and language. It can be easily customized as I'll show shortly.
 
 First include the CSS of the skin you're using. I'll assume the default:
-	``<link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />``
+	<link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />
 	
 Next include jQuery and editor.js:
-	``<script type="text/javascript" src="editor/jquery/jquery.js"></script>
-	<script type="text/javascript" src="editor/editor.js"></script>``
+	<script type="text/javascript" src="editor/jquery/jquery.js"></script>
+	<script type="text/javascript" src="editor/editor.js"></script>
 	
 Create a textarea with a name and a class of "editor" (it can be overriden):
 	<textarea name="permbajtja" class="editori"></textarea>

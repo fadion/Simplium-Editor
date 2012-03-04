@@ -3,7 +3,7 @@ a img {
 }
 
 /*
-	Mbajtesi i Editorit
+	Editor Wrapper
 */
 #editorWrapper {
 	width: 700px;
@@ -13,7 +13,7 @@ a img {
 }
 
 /*
-	Textarea - Fusha e editimit
+	The generated textarea
 */
 #editorWrapper textarea {
 	width: 90%;
@@ -28,7 +28,7 @@ a img {
 }
 
 /*
-	Paneli i Ikonave
+	Icons toolbar
 */
 #editorToolbar {
 	width: 90%;
@@ -41,7 +41,7 @@ a img {
 }
 
 /*
-	Ikonat dhe Qeshjet
+	Icons and Smileys
 */
 #editorIcons, #editorSmileys {
 	margin: 0;
@@ -50,12 +50,7 @@ a img {
 	float: left;
 	list-style-type: none;
 	height: 25px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	-moz-border-radius-topleft: 10px;
-	-moz-border-radius-topright: 10px;
-	-webkit-border-top-left-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
+	border-radius: 10px 10px 0 0;
 }
 
 #editorIcons {
@@ -72,24 +67,25 @@ a img {
 }
 
 /*
-	Mbajtesi i hijeve
+	Shadows container
 */
 #editorShadow {
 	overflow: hidden;
+	margin-top: -5px;
 }
 
 /*
-	Hija e mesit.
-	Gjeresia percaktohet me Javascript (ne editor.js)
+	Middle shadow.
+	Width is set by Javascript
 */
 #editorShadow #shadow-middle {
-	height:29px;
+	height: 29px;
 	background: url(images/shadow.png) repeat-x;
 	float: left;
 }
 
 /*
-	Hija e djathte dhe e majte
+	Left and right shadows
 */
 #editorShadow #shadow-left, #editorShadow #shadow-right {
 	height: 29px;
@@ -107,7 +103,7 @@ a img {
 }
 
 /*
-	Menuja e madhesise se germes
+	Font size menu
 */
 #editorFont {
 	margin: 0;
@@ -132,7 +128,7 @@ a img {
 }
 
 /*
-	Menuja e ngjyrave
+	Color menu
 */
 #editorColors {
 	width: 135px;
@@ -153,7 +149,7 @@ a img {
 }
 
 /*
-	Menuja e Qeshjeve
+	Smileys menu
 */
 #smileys-popup {
 	width: 95px;

@@ -24,7 +24,7 @@
 	"sm_tongue":        "Nxjerr Gjuhen",
 	"sm_shy":           "Turpshem",
 	"sm_angry":         "Acaruar",
-	"dislike":          "Nuk e Pelqen",
+	"sm_dislike":       "Nuk e Pelqen",
 	"sm_boss":          "Bos",
 	
 	"font_60":          "Shume i Vogel",
