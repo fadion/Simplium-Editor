@@ -31,8 +31,8 @@ First include the CSS of the skin you're using. I'll assume the default:
 	``<link rel="stylesheet" type="text/css" href="editor/skins/simplium/editor.css" />``
 	
 Next include jQuery and editor.js:
-	<script type="text/javascript" src="editor/jquery/jquery.js"></script>
-	<script type="text/javascript" src="editor/editor.js"></script>
+	``<script type="text/javascript" src="editor/jquery/jquery.js"></script>
+	<script type="text/javascript" src="editor/editor.js"></script>``
 	
 Create a textarea with a name and a class of "editor" (it can be overriden):
 	<textarea name="permbajtja" class="editori"></textarea>
