@@ -43,11 +43,11 @@ Create a textarea with a name and a class of "editor" (it can be overriden):
 	
 Finally initialize the editor:
 <pre lang="javascript"><code>
-<script type="text/javascript">	
-	$(document).ready(function(){
-		Editor.loadEditor();
-	});
-</script>
+	<script type="text/javascript">	
+		$(document).ready(function(){
+			Editor.loadEditor();
+		});
+	</script>
 </code></pre>
 
 If you feel you want to override the initialization parameters, here they are:
