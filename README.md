@@ -2,9 +2,9 @@
 
 A simple Javascript BB Code Editor (wysiwym) that focues on being lightweight, customizable and good looking. It was created for an abandoned open source bulletin board project as the default editor.
 
-![Simplium Editor](http://feniksi.com/wp-content/uploads/2011/09/editori1.jpg)
+![Simplium Editor](https://dl.dropboxusercontent.com/u/7701656/streha-bc.png)
 
-It uses jQuery and [RangyInputs](http://code.google.com/p/rangyinputs/wiki/Documentation "Rangy Inputs jQuery Plugin") to do it's work. Icons are from the popular [FamFamFam Silk](http://www.famfamfam.com/lab/icons/silk/ "FamFamFam Silk Icons") collection, while the lovely smileys are custom made by [Gezim Osmani](http://artisticca.com/ "Artisticca Creative Agency").
+It uses jQuery and [RangyInputs](http://code.google.com/p/rangyinputs/wiki/Documentation "Rangy Inputs jQuery Plugin") to do it's work. Icons are from the popular [FamFamFam Silk](http://www.famfamfam.com/lab/icons/silk/ "FamFamFam Silk Icons") collection, while the lovely smileys are custom made for this project by [Gezim Osmani](http://artisticca.com/ "Artisticca Creative Agency").
 
 Features
 --------
@@ -15,7 +15,6 @@ It's a lightweight editor with only about 450 lines of commented Javascript code
 + BB Codes for the most common operations (Bold, Italic, Underline, Links, etc)
 + Smileys
 + Shortcuts with a combination of CTRL (Win) or CMD (Mac) and B (Bold), I (Italic), U (Underline), L (Link)
-+ Vertically resizable using CSS3 "resize: vertically"
 + Skinable via a simple CSS and images. Can support multiple skins
 + Localizable with really simple JSON formatted Javascript files
 + Compatible with IE6 (no CSS3, no PNG alpha), IE7 and IE8 (no border-radius), IE9 (no resize:vertically), Chrome, Safari, Firefox and Opera
@@ -41,7 +40,7 @@ Next include jQuery and editor.js:
 Create a textarea with a name and a class of "editor" (it can be overriden):
 
 ```html
-<textarea name="permbajtja" class="editori"></textarea>
+<textarea name="content" class="editor"></textarea>
 ```
 	
 Finally initialize the editor:
@@ -58,10 +57,10 @@ If you feel you want to override the initialization parameters, here they are:
 
 ```js
 Editor.loadEditor({
-	selector: '.my_editor', // the selector (id or class) of the textarea that will be converted
-	skin: 'skin_name', // the skin that will be used. The actual files should exist under the "skins" folder
-	width: 700, // editor width
+	selector: '.editor', // the selector (id or class) of the textarea that will be converted
+	skin: 'simplium', // the skin that will be used. The actual files should exist under the "skins" folder
+	width: 600, // editor width
 	lang: 'en', // language. An actual file should exist with the appropriate name (en => en.js, de => de.js)
-	path: 'editori', // the folder where the editor files are. No slashes (/).
+	path: 'editor', // the folder where the editor files are. No trailing slashes.
 });
 ```
