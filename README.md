@@ -2,7 +2,7 @@
 
 A simple Javascript BB Code Editor (wysiwym) that focues on being lightweight, customizable and good looking. It was created for an abandoned open source bulletin board project as the default editor.
 
-![Simplium Editor](https://dl.dropboxusercontent.com/u/7701656/streha-bc.png)
+![Simplium Editor](https://dl.dropboxusercontent.com/u/7701656/simplium-editor.jpg)
 
 It uses jQuery and [RangyInputs](http://code.google.com/p/rangyinputs/wiki/Documentation "Rangy Inputs jQuery Plugin") to do it's work. Icons are from the popular [FamFamFam Silk](http://www.famfamfam.com/lab/icons/silk/ "FamFamFam Silk Icons") collection, while the lovely smileys are custom made for this project by [Gezim Osmani](http://artisticca.com/ "Artisticca Creative Agency").
 
